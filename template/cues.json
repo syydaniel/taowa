@@ -1,0 +1,19 @@
+{
+  "说明": "配乐和音效都写在这里。时间写法：12.5 | a01（句子开始）| a01$（句子结束）| a01:关键词 | END（片尾卡）| DUR（全片结束），后面可以跟 +0.3 / -0.2。",
+  "beds": {
+    "groove": {"bpm": 100, "key": "D minor", "dur": 120, "seed": 11, "caption": "A playful, confident instrumental beat for a fast-talking tech explainer: bouncy drums with a swung hi-hat, a plucky bass line, short muted guitar stabs, light marimba hits. Dry, tight, no vocals, leaves room for a narrator."},
+    "rise": {"bpm": 118, "key": "A minor", "dur": 100, "seed": 11, "caption": "An energetic, uplifting electronic instrumental: driving four-on-the-floor drums, a bright arpeggiated synth, punchy bass, big chord stabs that keep building. No vocals."},
+    "outro": {"bpm": 86, "key": "F major", "dur": 70, "seed": 11, "caption": "A warm, relaxed instrumental ending: soft felt piano over an analog pad and a gentle bass, a few finger snaps. Calm and friendly, no vocals."}
+  },
+  "plan": [
+    {"from": "0", "to": "b01-0.2", "bed": "groove", "offset": 2},
+    {"from": "b01-0.2", "to": "c01-0.2", "bed": "rise", "offset": 0, "gain": -1.5},
+    {"from": "c01-0.2", "to": "DUR", "bed": "outro", "offset": 0, "gain": 1}
+  ],
+  "auto": {"line_whoosh": true, "chapter_sub": true},
+  "sfx": [
+    {"at": "a01:钩子", "name": "hit"},
+    {"at": "END", "name": "hit"}
+  ],
+  "levels": {"voice_rms": -20, "bed_db": -7, "sfx_db": 0, "duck_ratio": 5}
+}

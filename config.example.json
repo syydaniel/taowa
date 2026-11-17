@@ -1,0 +1,25 @@
+{
+  "project_root": "~/videos",
+  "productions_dir": "productions",
+  "publish_dir": "发布包",
+  "radar_db": "",
+  "py_audio": "python3",
+  "py_music": "python3",
+  "acestep_root": "~/ACE-Step-1.5",
+  "voice_ref": "",
+  "voice_ref_fast": "",
+  "voice_ref_text": "",
+  "voice_speed": 1.06,
+  "voice_rate": 5.3,
+  "sfx_dir": "",
+  "banned_words": [],
+  "soft_words": [
+    "全自动",
+    "一键",
+    "批量"
+  ],
+  "cta_phrase": "我也想要",
+  "tts_model": "mlx-community/Qwen3-TTS-12Hz-1.7B-Base-bf16",
+  "whisper_model": "mlx-community/whisper-large-v3-turbo",
+  "style_refs": []
+}

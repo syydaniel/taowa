@@ -1,0 +1,3 @@
+#!/bin/sh
+# 方便手敲：把这个目录加进 PATH，就可以直接写 taowa <命令>
+exec python3 "$(dirname "$0")/taowa.py" "$@"
