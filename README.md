@@ -84,6 +84,7 @@ config.example.json 配置样例
 - [开口 kaikou](https://github.com/syydaniel/kaikou)：让克隆的声音，一开口就说人话。
 - [真实感开关 zhenshi-kaiguan](https://github.com/syydaniel/zhenshi-kaiguan)：用纯代码做出看着像拍出来的 3D 画面。
 - [曲风环游 qufeng-huanyou](https://github.com/syydaniel/qufeng-huanyou)：一首曲子进去，八个国家的版本出来。
+- [剧组 juzu](https://github.com/syydaniel/juzu)：从改文案到出片，一个人的 B 站知识视频剧组。
 
 ## 许可证
 
